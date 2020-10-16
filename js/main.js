@@ -80,7 +80,7 @@ function muestraPantallaFinal(
 
   //? imagenesBaseDatos['piedra']
 
-  //? Quitar todas las imagenesBaseDatos
+  //? Quitar todas las imagenes 
   document.getElementById("piedra").remove();
   document.getElementById("papel").remove();
   document.getElementById("tijeras").remove();
