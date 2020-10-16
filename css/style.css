@@ -1,0 +1,37 @@
+img {
+  height: 150px;
+  width: 150px;
+}
+
+.contenedor {
+  /*border: 1px solid black;*/
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+img:hover {
+  box-shadow: 0px 5px 30px rgb(7, 142, 233);
+}
+
+.imagenes {
+  /*border: 1px solid red;*/
+  display: flex;
+  justify-content: space-around;
+  /*  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px; */
+}
+
+div > .humano {
+  box-shadow: 0px 5px 30px rgb(7, 142, 233);
+}
+
+div > .computadora {
+  box-shadow: 0px 5px 30px rgb(145, 7, 236);
+}
+
+h1 {
+  font-size: 40px;
+  padding: 30px;
+}
